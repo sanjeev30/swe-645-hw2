@@ -1,0 +1,124 @@
+/* 
+* @Author: Sanjeevkumar Hanumantlal Sharma (G01393366)
+* This file contains CSS properties used for styling index.html of part-2 of the assignment.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, green, gold);
+    height: 100%;
+}
+
+#nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.mason-logo {
+    height: 100%;
+    margin: 0 20px;
+    display: inline;
+}
+
+.mason-text {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.return-link {
+    vertical-align: top;
+    color: black;
+    background-color: #F5F5DC;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    position: absolute;
+    right: 2%;
+    top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-title {
+    color: green;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    background-color: #F5F5DC;
+    width: 50%;
+    position: relative;
+    left: 23%;
+    padding: 2%;
+    margin: 50px 0;
+}
+
+.form-container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-label {
+    display: block;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.required {
+    color: red;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 12px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-top: 12px;
+}
+
+input[type="radio"] {
+    margin-top: 12px;
+}
+
+.form-input:focus {
+    border: 2px solid gold;
+}
+
+.form-buttons {
+    text-align: center;
+}
+
+.form-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.form-button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+}
+
+.form-button[type="reset"] {
+    background-color: red;
+}
